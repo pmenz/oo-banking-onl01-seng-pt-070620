@@ -22,11 +22,12 @@ class Transfer
   end 
   
   def reverse_transfer 
+    
   end
   
   def reject_transjer
-  
-  
+   self.status = "rejected"
+    "Transaction rejected. Please check your account balance."
   end
 
 end
