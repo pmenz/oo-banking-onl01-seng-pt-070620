@@ -15,12 +15,18 @@ class Transfer
   end 
   
   def execute_transaction 
-    @receiver =+ amount
+    if 
+      @receiver =+ amount
     @sender =- amount
     
   end 
   
   def reverse_transfer 
+  end
+  
+  def reject_transjer
+  
+  
   end
 
 end
